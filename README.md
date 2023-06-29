@@ -2,6 +2,8 @@
 Info
 
 ```
+curl ifconfig.me - узнать белый ip
+whois $(curl ifconfig.me) - узнать информацию whois
 find - утилита для сложного поиска файлов. В простейшем случае программе find можно передать одно или несколько имён каталогов для поиска
 find ~ -type d | wc -l
 find ~ -type f -name "*.JPG" -size +1M | wc -l
